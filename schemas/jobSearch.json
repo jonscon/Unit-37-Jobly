@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$id": "http://our.company.com/jobSearch.schema.json",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "minLength": 1
+        },
+        "minSalary": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "equity": {
+            "type": "boolean"
+        }
+    },
+    "additionlProperties": false,
+    "required": []
+}
